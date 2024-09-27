@@ -1,0 +1,10 @@
+ConnectionStrings: 
+    ReportConnection: ""
+ServicesUrl:
+    PolicyApiUrl: http://Microservices.Demo.Policy.API/api/policy 
+    ProductApiUrl: http://Microservices.Demo.Product.API/api/product  
+ElasticApm:
+    SecretToken: 
+    ServerUrls: http://microservices.demo.apm-server:8200
+    ServiceName: Microservices.Demo.Report.API
+    Environment: production
