@@ -144,7 +144,7 @@ Routes:
             userType: SALESMAN   
         DangerousAcceptAnyServerCertificateValidator: true    
     -
-        DownstreamPathTemplate: /api/reports/combined
+        DownstreamPathTemplate: /api/report/combined
         DownstreamScheme: http
         UpstreamPathTemplate: /api/report/combined
         ServiceName: Microservices.Demo.Report.API 
